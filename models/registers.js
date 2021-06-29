@@ -23,7 +23,6 @@ const registrationSchema = new mongoose.Schema({
     phone: {
         type: Number,
         required: true,
-        unique: true
     },
     address: {
         type: String,
@@ -56,6 +55,7 @@ const registrationSchema = new mongoose.Schema({
 });
 
 // We are hashing the passwords
+// unique: true
 
 // registrationSchema.pre('save', async function (next) {
 //     // console.log("Bcrypt function called");

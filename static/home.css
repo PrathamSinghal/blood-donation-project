@@ -9,8 +9,9 @@
 .navbar {
     display: flex;
     align-items: center;
-    /* justify-content: center; */
+    justify-content: center !important;
     position: relative;
+    padding: 0 !important;
 
     /* background-color: rgb(230, 202, 202); */
 }
@@ -27,9 +28,9 @@
 
 /* Navigation Bar:Logo and Image  */
 #logo {
-    margin: 10px 24px;
-    margin-right: 210px;
-    margin-left: 240px;
+    margin: 2px 24px;
+    margin-right: 310px;
+    margin-left: 4px;
 }
 
 #logo img {
@@ -43,6 +44,8 @@
     align-items: center;
     justify-content: center;
 
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
 .navbar ul li {
@@ -52,7 +55,7 @@
 
 .navbar ul li a {
     display: block;
-    padding: 39px 24px;
+    padding: 30px 25px;
     text-decoration: none;
     color: #d8203b;
     font-family: 'Roboto Condensed', 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -193,7 +196,7 @@ form {
 .search-input {
     width: 100%;
     height: 53px;
-    text-indent: 75px;
+    /* text-indent: 75px; */
     border-radius: 5px;
     position: relative;
     min-height: 1px;
@@ -516,7 +519,7 @@ form {
 }
 
 .testimonial-photo {
-    background-image: url('/static/images/benificiary-images/testimonial-1.jpg');
+    /* background-image: url('/static/images/benificiary-images/testimonial-1.jpg'); */
     width: 100px;
     height: 100px;
     background-position: top center;
@@ -524,6 +527,11 @@ form {
     background-repeat: no-repeat;
     border: 5px solid #d8203b;
     margin: 0 auto;
+}
+
+.testimonial-photo img {
+    width: 100%;
+    height: 100%;
 }
 
 .testimonial-text {
@@ -1147,4 +1155,148 @@ margin: 0;
     font-weight: 500;
     line-height: 1.1;
     color: inherit;
+}
+
+.donor-profile-area {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.donor-leftbar {
+    border: 2px solid #e6e6e6;
+    padding: 15px;
+    margin-top: 30px;
+    background: #f9f9f9;
+}
+
+.donor-profile-item {
+    text-align: center;
+}
+
+.donor-image {
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+.donor-leftbar-info h2 {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.donor-leftbar-info h4 { 
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: capitalize;
+    margin: 0;
+}
+.donor-leftbar-info h4 span {
+    color: #d8203b;
+    margin-left: 5px;
+}
+
+.donor-leftbar-social {
+    margin-top: 15px;
+}
+.donor-leftbar-social ul { 
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.donor-leftbar-social ul li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.donor-leftbar-social ul li a {
+    text-align: center;
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    border: 1px solid #d8203b;
+    background: #d8203b;
+    transition: all 0.4s;
+}
+
+.donor-contact-form {
+    margin-top: 30px;
+}
+
+.donor-contact-form h3 {
+    font-size: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    font-weight: 600;
+}
+
+/* .donor-contact-form, .form-group input {
+    height: 35px;
+} */
+
+.form-group input {
+    transition: all 0.3s;
+}
+
+.donor-contact-form .btn-primary {
+    display: block;
+    width: 100%;
+    font-weight: 600;
+    background: #d8203b;
+    border-color: #d8203b;
+    transition: ease 0.4s all;
+}
+
+.donor-description {
+    border: 2px solid #e6e6e6;
+    padding: 15px;
+    margin-top: 30px;
+    background: #f9f9f9;
+}
+
+.donor-description-list {
+    margin-top: 15px;
+}
+
+.donor-description h3 {
+    font-size: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.table-bordered {
+    border: 1px solid #ddd;
+}
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.donor-description table tr td:first-child {
+    width: 200px;
+    color: #d8203b;
+}
+
+.donor-description p.description {
+    font-size: 14px;
 }
