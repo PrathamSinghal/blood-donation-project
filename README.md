@@ -5,7 +5,7 @@ This project was bootstrapped with NodeJS
 ## Available Scripts
 
 In the project directory, you can run:
-Open [https://prathamsinghal.github.io/React_Netflix_App/](https://bloodbank-way.herokuapp.com/) to view it in the browser.
+Open [https://bloodbank-way.herokuapp.com/](https://bloodbank-way.herokuapp.com/) to view it in the browser.
 
 ### `npm start`
 
